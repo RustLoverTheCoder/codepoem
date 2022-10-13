@@ -1,10 +1,9 @@
-import { CodeEditor } from "./ui";
+import { CodeEditor, Header } from "./ui";
 
 function App() {
   return (
-    <div class="w-full h-full text-xs">
-      <CodeEditor></CodeEditor>
-      <CodeEditor></CodeEditor>
+    <div class="w-full h-full">
+      <Header />
       <CodeEditor></CodeEditor>
     </div>
   );

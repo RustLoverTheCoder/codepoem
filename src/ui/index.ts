@@ -1,3 +1,4 @@
 import CodeEditor from "./CodeEditor";
+import Header from "./Header";
 
-export { CodeEditor };
+export { CodeEditor, Header };
